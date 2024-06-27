@@ -1,36 +1,38 @@
 import reactLogo from "../assets/react.svg";
-import rose from "../assets/rose.jpg";
-import wolf from "../assets/wolf.jpg";
+import typescript from "../assets/typescript.jpg";
+import html from "../assets/css.png";
+import css from "../assets/html.png";
+import javascript from "../assets/javascript.png";
 
-   export const videos = [
-    {
-        id:1,
-        name:'Video 1',
-        likes:'11',
-        img: reactLogo
-    },
-    {
-        id:2,
-        name:'Video 2',
-        likes:'22',
-        img: rose
-    },
-    {
-        id:3,
-        name:'Video 3',
-        likes:'10',
-        img: wolf
-    },
-    {
-        id:4,
-        name:'Video 4',
-        likes:'31',
-        img: reactLogo
-    },
-    {
-        id:5,
-        name:'Video 5',
-        likes:'17',
-        img: reactLogo
-    },
-   ]
+export const videos = [
+  {
+    id: 1,
+    title: "Video 1",
+    name: "Javascrip",
+    img: javascript,
+  },
+  {
+    id: 2,
+    title: "Video 2",
+    name: "React",
+    img: reactLogo,
+  },
+  {
+    id: 3,
+    title: "Video 3",
+    name: "Typescript",
+    img: typescript,
+  },
+  {
+    id: 4,
+    title: "Video 4",
+    name: "HTML",
+    img: html,
+  },
+  {
+    id: 5,
+    title: "Video 5",
+    name: "CSS",
+    img: css,
+  },
+];

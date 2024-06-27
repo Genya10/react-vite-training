@@ -9,9 +9,9 @@ function App() {
         return (
           <Video
             key={vidos.id}
+            title={vidos.title}
             name={vidos.name}
             img={vidos.img}
-            likes={vidos.likes}
           />
         );
       })}

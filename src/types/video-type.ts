@@ -1,5 +1,5 @@
-export interface PropsVideo{
-    name: string,
-    likes: string,
-    img: string
+export interface PropsVideo {
+  title: string;
+  name: string;
+  img: string;
 }
